@@ -9,9 +9,9 @@
   ],
   "main": "./index.js",
   "dependencies": {
-    "gulp-util": "^2.2.17",
-    "minimize": "^0.7.5",
-    "through2": "^0.5.1"
+    "gulp-util": "~2.2.20",
+    "minimize": "~0.8.2",
+    "through2": "~0.5.1"
   },
   "engines": {
     "node": ">= 0.10"
