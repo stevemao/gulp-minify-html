@@ -10,14 +10,14 @@
   "main": "./index.js",
   "dependencies": {
     "gulp-util": "^2.2.20",
-    "minimize": "^0.10.0",
+    "minimize": "^1.1.0",
     "through2": "^0.5.1"
   },
   "engines": {
     "node": ">= 0.10"
   },
   "scripts": {
-    "test": "mocha -u tdd -R list --globals opts"
+    "test": "./node_modules/mocha/bin/mocha -u tdd -R list --globals opts"
   },
   "devDependencies": {
     "gulp": "~3.5.2",
