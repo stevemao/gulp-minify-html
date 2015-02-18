@@ -37,6 +37,7 @@ All options are `false` by default.
 * `conditionals` - do not remove conditional internet explorer comments
 * `spare` - do not remove redundant attributes
 * `quotes` - do not remove arbitrary quotes
+* `loose` - preserve one whitespace
 
 so setting `empty:true` is the same as telling `minifyHTML` "do not remove empty attributes."
 
