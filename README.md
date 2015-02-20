@@ -2,7 +2,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>gulp-minify-html</td>
 </tr>
 <tr>
@@ -17,15 +17,18 @@
 
 ## Usage
 
-```
+```js
 var minifyHTML = require('gulp-minify-html');
 
 gulp.task('minify-html', function() {
-	var opts = {comments:true,spare:true};
-	
-  gulp.src('./static/html/*.html')
+  var opts = {
+    conditionals: true,
+    spare:true
+  };
+
+  return gulp.src('./static/html/*.html')
     .pipe(minifyHTML(opts))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./dist/'));
 });
 ```
 #### Options

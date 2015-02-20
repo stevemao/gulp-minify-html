@@ -1,9 +1,9 @@
-var through = require('through2')
-  , gutil = require('gulp-util')
-	, Minimize = require('minimize');
+var through = require('through2');
+var gutil = require('gulp-util');
+var Minimize = require('minimize');
 
 module.exports = function(opt){
-  
+
   function minimize (file, encoding, callback) {
     if (file.isNull()) {
       return callback(null, file);
@@ -13,9 +13,12 @@ module.exports = function(opt){
       return callback(new gutil.PluginError('gulp-minify-html', 'doesn\'t support Streams'));
     }
 
-    var minimize = new Minimize(opt || {} );  
+    var minimize = new Minimize(opt || {} );
+
     minimize.parse(file.contents.toString(), function (err, data) {
-      if (err) return callback(new gutil.PluginError('gulp-minify-html', err));
+      if (err) {
+        return callback(new gutil.PluginError('gulp-minify-html', err));
+      }
 
       file.contents = new Buffer(data);
       callback(null, file);
