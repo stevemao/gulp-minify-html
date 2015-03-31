@@ -1,7 +1,7 @@
 {
   "name": "gulp-minify-html",
   "description": "Minify html with minimize.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/jonathanepollack/gulp-minify-html.git",
   "homepage": "https://github.com/jonathanepollack/gulp-minify-html",
   "keywords": [
