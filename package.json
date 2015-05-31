@@ -1,9 +1,10 @@
 {
   "name": "gulp-minify-html",
   "description": "Minify html with minimize.",
-  "version": "1.0.2",
-  "repository": "https://github.com/jonathanepollack/gulp-minify-html.git",
-  "homepage": "https://github.com/jonathanepollack/gulp-minify-html",
+  "version": "1.0.3",
+  "repository": "murphydanger/gulp-minify-html",
+  "author": "Jonathan Pollack <jonathan@gnobel.com> (gnobel.com)",
+  "homepage": "https://github.com/murphydanger/gulp-minify-html",
   "keywords": [
     "gulpplugin",
     "minify",
@@ -30,9 +31,5 @@
     "chai": "^2.0.0",
     "mocha": "^2.1.0"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  "licenses": "MIT"
 }

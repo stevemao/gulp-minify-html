@@ -48,7 +48,7 @@ so setting `empty:true` is the same as telling `minifyHTML` "do not remove empty
 
 (MIT License)
 
-Copyright (c) 2013 Jonathan Pollack (<jonathanepollack@gmail.com>), Cloudlabs Inc.
+Copyright (c) 2015 Jonathan Pollack, [Terminal.com](https://www.terminal.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
